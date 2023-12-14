@@ -3,6 +3,13 @@ import { BsArrowUpRightCircleFill } from "react-icons/bs";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
+    POWERBOARDDesc:
+      "Snapshotter Node powered dashboard that gives critical and accurate analysis and representation of all the data fetched by the node. The running node can also grab data from user entered contracts.",
+    POWERBOARDGithub:
+      "https://ethglobal.com/showcase/powerboard-the-ultimate-snapshotter-experience-zzmys",
+    WORKROLLDesc:
+      "Pioneering a transformation in the freelance landscape, this project stands as the ultimate tool for upcoming freelancers. Its innovative approach not only revolutionizes freelance dynamics but also earned it multiple bounties at EthIndia 2023.",
+    WORKROLLGithub: "https://ethglobal.com/showcase/workroll-u5jzj",
     OWLDesc:
       "A dApp for video game distribution employing NFT licensing. This led to securing the highest position out of 12,000 participants in the esteemed TezAsia 2k23 hackathon",
     OWLGithub:

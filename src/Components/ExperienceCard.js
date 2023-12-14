@@ -25,7 +25,7 @@ const ExperienceCard = () => {
     return (
       <div className="experienceBox1Expanded">
         <ExperienceCardJob
-          designation="Full Stack Developer Intern"
+          designation="Full Stack Developer"
           companyName="Truffles"
           date="Jul 2023- present"
           skillsArray={[
@@ -46,7 +46,7 @@ const ExperienceCard = () => {
           type="left"
         />
         <ExperienceCardJob
-          designation="Backend Developer Intern"
+          designation="Backend Developer "
           companyName="Tactics"
           date="Mar 2023- Sept 2023"
           skillsArray={[
@@ -70,7 +70,7 @@ const ExperienceCard = () => {
           type="left"
         />
         <ExperienceCardJob
-          designation="Full Stack Developer Intern"
+          designation="Full Stack Developer "
           companyName="Metaverse Ventures Private Limited"
           date="Apr 2023- Jul 2023"
           skillsArray={[
@@ -114,7 +114,7 @@ const ExperienceCard = () => {
           type="left"
         />
         <ExperienceCardJob
-          designation="Web Developer"
+          designation="Web Developer Intern"
           companyName="Boston Consulting Group"
           date="Aug 2022- Oct 2022"
           skillsArray={[
@@ -134,7 +134,7 @@ const ExperienceCard = () => {
       <div className="experienceCard">
         <div className="experienceBox1">
           <ExperienceCardJob
-            designation="Full Stack Developer Intern"
+            designation="Full Stack Developer "
             companyName="Truffles"
             date="Jul 2023- present"
             skillsArray={[
@@ -163,7 +163,7 @@ const ExperienceCard = () => {
             type="empty"
           />
           <ExperienceCardJob
-            designation="Full Stack Developer Intern"
+            designation="Full Stack Developer "
             companyName="Metaverse Ventures Private Limited"
             date="Apr 2023- Jul 2023"
             skillsArray={[
@@ -205,7 +205,7 @@ const ExperienceCard = () => {
             type="empty"
           />
           <ExperienceCardJob
-            designation="Backend Developer Intern"
+            designation="Backend Developer "
             companyName="Tactics"
             date="Mar 2023- Sept 2023"
             skillsArray={[
@@ -262,7 +262,7 @@ const ExperienceCard = () => {
             type="empty"
           />
           <ExperienceCardJob
-            designation="Web Developer"
+            designation="Web Developer Intern"
             companyName="Boston Consulting Group"
             date="Aug 2022- Oct 2022"
             skillsArray={[
