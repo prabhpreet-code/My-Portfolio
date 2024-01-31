@@ -80,13 +80,13 @@ b {
 }
 
 .blur {
-  background-color: #01111a8d;
+  background-color: #9190908d;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(20px);
 }
 
 .Logo {
-  font-size: 32px;
+  font-size: 70px;
   letter-spacing: 2px;
   padding-left: 7%;
   color: #800c58;

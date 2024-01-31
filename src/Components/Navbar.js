@@ -5,6 +5,7 @@ import { AiOutlineHome } from "react-icons/ai";
 import { BsPerson, BsCodeSlash } from "react-icons/bs";
 import { CgFileDocument } from "react-icons/cg";
 import { FaUserTie } from "react-icons/fa";
+import { IoGlassesOutline } from "react-icons/io5";
 
 const Nav = () => {
   const [navbarblur, setnavbarblur] = useState(false);
@@ -40,13 +41,13 @@ const Nav = () => {
 
   return (
     <nav className={navbarblur ? "Navbar blur" : "Navbar"}>
-      <h1
+      <div
         title="Reload"
         onClick={() => window.location.reload(true)}
         className="Logo"
       >
-        PRABH
-      </h1>
+        <IoGlassesOutline />
+      </div>
 
       <div className="Hamburger" onClick={showMenu}>
         <span className="bar"></span>

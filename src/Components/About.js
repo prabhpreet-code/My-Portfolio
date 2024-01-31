@@ -49,6 +49,7 @@ const About = () => {
         <Skills skill="Node" />
         <Skills skill="Express" />
         <Skills skill="MongoDb" />
+        <Skills skill="Docker" />
         <Skills skill="Git" />
         <Skills skill="Github" />
         <Skills skill="Javascript" />
@@ -59,6 +60,7 @@ const About = () => {
         <Skills skill="NestJS" />,
         <Skills skill="Golang" />,
         <Skills skill="AWS" />,
+        <Skills skill="Azure" />,
         <Skills skill="NextJS" />,
         <Skills skill="MaterialUI" />,
         <Skills skill="Redis" />,

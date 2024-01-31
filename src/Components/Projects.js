@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectBox from "./ProjectBox";
-import jimImage from "../images/jim.png";
+import supportImage from "../images/Support.png";
 import mapImage from "../images/map.png";
 import owlImage from "../images/owl.png";
-import satyugImage from "../images/satyug.png";
+import adImage from "../images/AD.jpg";
 import whatsappImage from "../images/whatsapp.png";
 import powerBoard from "../images/powerboard.png";
 import workRoll from "../images/workroll.jpg";
@@ -15,12 +15,14 @@ const Projects = () => {
         My <b>Projects</b>
       </h1>
       <div className="project">
+        <ProjectBox projectPhoto={adImage} projectName="ADEase" />
+        <ProjectBox projectPhoto={owlImage} projectName="OWL" />
+        <ProjectBox projectPhoto={supportImage} projectName="RAPID_RESOLVE" />
         <ProjectBox projectPhoto={workRoll} projectName="WORKROLL" />
         <ProjectBox projectPhoto={powerBoard} projectName="POWERBOARD" />
-        <ProjectBox projectPhoto={owlImage} projectName="OWL" />
-        <ProjectBox projectPhoto={jimImage} projectName="JIM" />
-        <ProjectBox projectPhoto={mapImage} projectName="MAPS" />
-        <ProjectBox projectPhoto={satyugImage} projectName="SATYUG" />
+
+        <ProjectBox projectPhoto={mapImage} projectName="STORE_LOCATOR" />
+
         <ProjectBox projectPhoto={whatsappImage} projectName="WHATSCHAT" />
       </div>
     </div>

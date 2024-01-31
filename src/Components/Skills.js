@@ -24,6 +24,8 @@ import {
 } from "react-icons/si";
 import { BiLogoTailwindCss, BiLogoAws, BiLogoJava } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
+import { FaDocker } from "react-icons/fa";
+import { SiMicrosoftazure } from "react-icons/si";
 
 const Skills = ({ skill }) => {
   const icon = {
@@ -34,6 +36,7 @@ const Skills = ({ skill }) => {
     Node: <DiNodejs />,
     Express: <SiExpress />,
     MongoDb: <SiMongodb />,
+    Docker: <FaDocker />,
     Git: <FaGitAlt />,
     Github: <FaGithub />,
     Bootstrap: <FaBootstrap />,
@@ -41,6 +44,7 @@ const Skills = ({ skill }) => {
     NestJS: <SiNestjs />,
     Golang: <FaGolang />,
     AWS: <BiLogoAws />,
+    Azure: <SiMicrosoftazure />,
     NextJS: <TbBrandNextjs />,
     MaterialUI: <SiMui />,
     Redis: <SiRedis />,
